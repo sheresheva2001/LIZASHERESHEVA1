@@ -4,69 +4,97 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
-        .blok{
-            background-color: darkgray;
+
+        .block {
+            background-color: navajowhite;
+            padding: 0.1cm;
+        }
+
+        .nk {
+            background-color: purple;
             float: left;
+            width: 17cm;
+            padding: 23px;
         }
-        .one_1{
-        background-color: gray;
-            float: top;
+
+        .gt {
+            background-color: chartreuse;
         }
-        .two_2{
-            background-color: gray;
-            float: top;
+
+        .gt0 {
+            background-color: magenta;
+            overflow: auto;
+            padding: 20px;
+            margin-bottom: 0.2cm;
         }
-        .fl{
-            background-color: gray;
+
+        .gt1 {
+            background-color: plum;
+            overflow: auto;
+            /*margin: right;*/
+            /*margin-bottom: 0.2cm;*/
+            padding: 20px;
+
         }
-        img{background-color: white;width: 50px;float: right;}
+
+        .clear {
+            clear: both;
+            background-color: blueviolet;
+        }
+
+        .end {
+            background-color: lightcyan;
+            clear: both;
+            padding: 20px;
+        }
+
+        p {
+            margin: 0.2px;
+        }
     </style>
 </head>
+
 <body>
+<div class="block">
 
-<div>
-    <div class="blok">
+    <div class="nk">
         <h3>Блок навигации</h3>
-            <ul>
-                <li>15jfbvebrvejrbekhrb</li>
-                <li>фонrnejrfnejrkfnerjfn</li>
-                <li>слеваelkrfnelrkjnferfn</li>
-                <li>блокelkrfnelkrfnerlkfnr</li>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-            </ul>
+        <ul>
+            <li>Ширина 15см</li>
+            <li>Должен присутствовать цвет фона</li>
+            <li>Располагается слева</li>
+            <li>Блок навигации наполните контентом достаточным, чтобы по высоте он начинал захватывать вторую
+                статью, как
+                показано в
+                данном примере</li>
+        </ul>
     </div>
 
-    <div class="one_1">
+    <div class="gt">
+        <div class="gt0">
             <h3>Статья 1</h3>
-            <p>Размер блока:<br>
-                занимает всюширину<br>
-                должен присутствовать цвет фона<br>
-                в статьях сделайте отступ снизу
-            </p>
+            <p>Размер блока:</p>
+            <p>Занимает всю доступную ширину.</p>
+            <p> Должен присутствовать цвет фона.</p>
+            <p>Во всех "статьях" сделайте отступ снизу от соседей, равным .2, при помощи свойства margin-bottom.</p>
+        </div>
+
+        <div class="gt1">
+            <h3>Статья 2</h3>
+            <p>Размер блока:</p>
+            <p>Занимает всю доступную ширину.</p>
+            <p>Должен присутствовать цвето фонаВо всех "статьях" </p>
+            <p>Сделайте отступ снизу от соседей, равным .2см, при помощи свойства margin-bottom. </p>
+            <p>Картинка вставлена при помощи тега, плавание организовано по правому краю внутри данной статьи для этой картинки.</p>
+            <img src="1.jpeg" style="float:right">
+
+        </div>
+
+     </div>
+    <div class="end">Нижний блок, подвал. Занимает всю доступную ширину. Высота определяется помещенным внутрь
+                    контентом.
     </div>
 
-        <div class="two_2">
-            <h3>Статья 2</h3>
-            <p>Размер блока:<br>
-                занимает всюширину<br>
-                должен присутствовать цвет фона<br>
-                в статьях сделайте отступ снизу<br>
-                <img src="1.jpeg" alt="img" >
-                <br>
-                <br>
-                <br>
-            </p>
-        </div>
-
-        <div class="fl">вjbcjsbdcksjbckhsdbcgbfgbhfnfgfg
-        </div>
 </div>
 </body>
 </html>
