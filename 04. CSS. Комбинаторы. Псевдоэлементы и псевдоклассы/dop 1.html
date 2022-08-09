@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        p{
+            border: double black 2px;
+            border-radius: 0px 20px 0px 20px;
+            padding: 10px;
+        }
+
+        a[href*='a1']::before{
+        content: url(img/ст.png);
+        }
+
+        a[href*='a2']::before{
+        content: url(img/ворл.jpeg);
+        }
+
+        a[href*='a3']::before{
+        content: url(img/ст.png);
+        }
+
+       a[href*='a4']::before{
+        content: url(img/пдф.png);
+        }
+
+         a[href*='a5']::before{
+        content: url(img/ст.png);
+        }
+
+        a[href*='a5']::before{
+        content: url(img/н.gif);
+        }
+
+
+
+        li{
+            list-style-image: url("img/лист.jpeg");
+        }
+
+       a span{
+            display: none;
+            position: absolute;
+            margin-left: 150px;
+            margin-top: -0.7cm;
+        }
+
+       a:hover span{
+           display: block;
+       }
+
+
+    </style>
+</head>
+<body>
+
+  <h1>Форматы файлов</h1>
+
+  <p>
+      .DOC или .doc (от англ.<img src="img/ст.png"><a href="">document</a>- расширение имени файла, используемое для файлов,<br>
+      представляющих текст, с разметкой или без. Расширение .DOC часто использовалось для<br>
+      обозначения простых текстовых файлов без формирования, однако позже стало <br>
+      использоваться для двоичных форматов с разметкой.
+      <img src="img/ворл.jpeg"><a href="">Документ MS WordS</a>
+  </p>
+
+  <p>
+      Portable Document Format (<a href="">PDF</a>) - межплатформенный формат электронных документов,<br>
+      разработанный фирмой Adobe Systems с использованием ряда возможностей языка <br>
+      Postscript.<br>
+      <a href="">Документ PDF</a>
+  </p>
+
+  <p>ZIP - популярный формат сжатия данных и архивации файлов. Файл в этом формате<br>
+      обычно имеет расширение <a href="">.zip</a> и хранит в сжатом или несжатом виде один или несколько<br>
+      файлов, которое можно из него извлечь путем распаковки с помощью специальной<br>
+      программы.<br>
+      <a href="">Архив</a>
+  </p>
+
+  <ul>
+      <h2>Это список файлов</h2>
+      <li><a href="">Документ MS Word<span><img src="img/ворл.jpeg"></span></a></li>
+      <li><a href="">Документ PDF<span><img src="img/пдф.png"></span></a></li>
+      <li><a href="">Архив<span><img src="img/н.gif"></span></a></li>
+  </ul>
+
+</body>
+</html>
