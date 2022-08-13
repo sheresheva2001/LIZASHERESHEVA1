@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+      <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <style>
+        .table{
+            width: 100%;
+            border: double black 2px;
+        }
+
+        .table thead{
+            border: double black 2px;
+            background: gray;
+        }
+
+        .table tbody tr:nth-child(even){
+            background-color: darkgray;
+        }
+
+        .table thead>tr:hover{
+            background-color: #EE82EE;
+            transition: 1s;
+        }
+
+        .table tbody>tr:hover{
+            background-color: deeppink;
+            transition: 1s;
+        }
+    </style>
+</head>
+<body>
+
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ФИО</th>
+                <th>пол</th>
+                <th>должность</th>
+                <th>дата рождения</th>
+                <th>данные 01</th>
+                <th>данные 02</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Иванов Иван Иванович</td>
+                <td>м</td>
+                <td>начальник</td>
+                <td>01.01.1960</td>
+                <td>64к6</td>
+                <td>37ке</td>
+            </tr>
+            <tr>
+                <td>Петрова Илонна Петровна</td>
+                <td>ж</td>
+                <td>начальник</td>
+                <td>01.01.1960</td>
+                <td>64к6</td>
+                <td>37ке</td>
+            </tr>
+            <tr>
+                <td>Сидоров Илья Игоревич</td>
+                <td>м</td>
+                <td>начальник</td>
+                <td>01.01.1960</td>
+                <td>64к6</td>
+                <td>37ке</td>
+            </tr>
+            <tr>
+                <td>Пупин Федор Федорович</td>
+                <td>м</td>
+                <td>начальник</td>
+                <td>01.01.1960</td>
+                <td>64к6</td>
+                <td>37ке</td>
+            </tr>
+            <tr>
+                <td>Крупин Сергей Иванович</td>
+                <td>м</td>
+                <td>начальник</td>
+                <td>01.01.1960</td>
+                <td>64к6</td>
+                <td>37ке</td>
+            </tr>
+        </tbody>
+    </table>
+    <p align="center"><b>ДАННЫЕ О СОТРУДНИКАХ</b></p>
+</div>
+<button id="shower">Show</button>
+
+    <script>
+
+        $("tr").click(function (event) {
+            event.preventDefault();
+            $(this).hide();
+        });
+        $("#shower").click(function () {
+            $("tr").show(2000);
+        });
+    </script>
+</body>
+</html>
