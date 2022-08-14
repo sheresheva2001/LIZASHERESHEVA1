@@ -35,26 +35,26 @@
         </div>
     </header>
 
-    <div class="r" style="border-right: 3px dotted #E3E5E8;">
-        <div class="m6">
-            <div class="r" style="border-right: 3px dotted #E3E5E8;">
+    <div class="all" style="border-right: 3px dotted #E3E5E8;">
+        <div class="m">
+            <div class="all" style="border-right: 3px dotted #E3E5E8;">
                 <ul>
                     <li><i>Программа на Python — часть 1</i></li>
                     <li><a href='How_To_Python_2.html' target="_blank"><i>Программа на Python — часть 2</i></a></li>
                     <li><a href='How_To_Python_3.html' target="_blank"><i>Программа на Python — часть 3</i></a></li>
                 </ul>
             </div>
-            <div class="r" style="border-right: 3px dotted #E3E5E8;">
+            <div class="all" style="border-right: 3px dotted #E3E5E8;">
                 <h4><a name="list">Содержание</a></h4>
                 <ul>
-                    <li><u><a href="#anchor1">Наша первая программа</a></u></li>
-                    <li><u><a href="#anchor2">Пример цикла For</a></u></li>
+                    <li><u><a href="#1">Наша первая программа</a></u></li>
+                    <li><u><a href="#2">Пример цикла For</a></u></li>
                 </ul>
             </div>
         </div>
 
 
-        <div class="m6">
+        <div class="m">
             <h3>HOW-TO: Программа на Python, Часть 1</h3>
             <p>Из множества существующих языков программирования Python — один из самых лёгких
                 в изучении. Он создан в конце 80-х годов XX века, но с тех пор он сильно изменился.
@@ -64,13 +64,13 @@
                 интерфейсов (GUI). Давайте создадим простую программу прямо сейчас.</p>
         </div>
     </div>
-    <div class="r" style="border-right: 3px solid #E3E5E8; ">
+    <div class="all" style="border-right: 3px solid #E3E5E8; ">
         <div class="mini_1">
-            <h4><a name="anchor1">Наша первая программа</a></h4>
+            <h4><a name="1">Наша первая программа</a></h4>
             <p><a href="#list">к содержанию</a></p>
         </div>
 
-        <div class="m9" style="border-left: 3px solid #E3E5E8; ">
+        <div class="min" style="border-left: 3px solid #E3E5E8; ">
             <p>Наберём код в текстовом редакторе (например, в <b>gedit</b>). Потом мы разберёмся, что делает
                 каждая строка и пойдём дальше.</p>
             <p>Введите эти 4 строки:</p><br>
@@ -97,14 +97,14 @@
         </div>
 
     </div>
-    <div class="r">
+    <div class="all">
         <div class="m3">
-            <h4><a name="anchor2">Пример цикла For</a></h4>
+            <h4><a name="2">Пример цикла For</a></h4>
             <p><a href="#list">к содержанию</a></p>
         </div>
 
 
-        <div class="m9" style="border-right: 3px dashed #E3E5E8; border-left: 3px dashed #E3E5E8;">
+        <div class="m" style="border-right: 3px dashed #E3E5E8; border-left: 3px dashed #E3E5E8;">
             <p>Теперь давайте рассмотрим пример программирования цикла. Запустите текстовый
                 редактор и наберите следующую программу:</p><br>
             <code>#!/usr/bin/env python<br>
